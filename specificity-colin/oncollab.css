@@ -72,7 +72,7 @@ button {
 .cta-btn {
     background-color: var(--black);
 
-    :hover {
+    :hover, :focus {
         background-color: var(--lightred);
         color: var(--black);
     }
@@ -81,7 +81,7 @@ button {
 .primary-btn {
     background-color: var(--darkred, #6A0025);
 
-    :hover {
+    :hover, :focus {
         background-color: var(--accentred);
     }
 }
@@ -89,4 +89,17 @@ button {
 .search-btn {
     background-color: var(--accentred);
     color: var(--darkred);
+
+    :hover, :focus {
+        background-color: var(--darkred);
+        color:var(--white);
+    }
 }
+
+
+.input-field{
+    width: 70vw;
+    background-color: var(--white);
+    border: 2px solid var(--lightred);
+}
+
