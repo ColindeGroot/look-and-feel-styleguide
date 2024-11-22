@@ -2,21 +2,21 @@ body {
     padding: 0px;
     box-sizing: border-box;
 
-     /* font familys */
-     --vag-rund: Arial, Helvetica, sans-serif;
-     --open-sans: "Open Sans";
- 
-     /*font sizes*/
-     --font-size-xl: 2em;
-     --font-size-l: 1.2em;
-     --font-size-m: 1em;
-     --font-size-s: 0.875em;
- 
-     /*font weight*/
-     --light: 400;
-     --normal: 500;
-     --bold: 600;
- 
+    /* font familys */
+    --vag-rund: Arial, Helvetica, sans-serif;
+    --open-sans: "Open Sans";
+
+    /*font sizes*/
+    --font-size-xl: 2em;
+    --font-size-l: 1.2em;
+    --font-size-m: 1em;
+    --font-size-s: 0.875em;
+
+    /*font weight*/
+    --light: 400;
+    --normal: 500;
+    --bold: 600;
+
 
     /* colors */
     --darkred: #6A0025;
@@ -52,7 +52,8 @@ p {
 
 /* lists and list items */
 
-ol,ul{
+ol,
+ul {
     list-style: none;
 }
 
@@ -72,7 +73,8 @@ button {
 .cta-btn {
     background-color: var(--black);
 
-    :hover, :focus {
+    :hover,
+    :focus {
         background-color: var(--lightred);
         color: var(--black);
     }
@@ -81,7 +83,8 @@ button {
 .primary-btn {
     background-color: var(--darkred, #6A0025);
 
-    :hover, :focus {
+    :hover,
+    :focus {
         background-color: var(--accentred);
     }
 }
@@ -90,16 +93,16 @@ button {
     background-color: var(--accentred);
     color: var(--darkred);
 
-    :hover, :focus {
+    :hover,
+    :focus {
         background-color: var(--darkred);
-        color:var(--white);
+        color: var(--white);
     }
 }
 
 
-.input-field{
+.input-field { /*search veld*/
     width: 70vw;
     background-color: var(--white);
     border: 2px solid var(--lightred);
 }
-
