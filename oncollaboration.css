@@ -7,10 +7,10 @@
 body {
     --darkred: #6A0025;
     --accentred: #6a002580;
-    --white: #fff;
+    --white: #FFF;
     --lightred: #F0E5E9;
     --black: #1F000B;
-    
+
     --vag-rund: Arial, Helvetica, sans-serif;
     --open-sans: "Open Sans";
 
@@ -28,9 +28,7 @@ body {
     background-color: var(--lightred);
     line-height: 1.4;
     font-size: var(--font-size-s);
-    
 }
-
 
 ol,
 ul {
@@ -83,6 +81,13 @@ button{
         background-color: var(--lightred);
         color: var(--black);
     }
+}
+.primary-btn {
+    background-color: var(--darkred);
+}
+
+.primary-btn:hover {
+    background-color: var(--accentred);
 }
 
 .search-btn{
