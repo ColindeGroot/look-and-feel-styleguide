@@ -63,11 +63,6 @@ a {
     }
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 button{
     padding: 15px 40px;
     background-color: var(--darkred);
