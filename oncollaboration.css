@@ -69,9 +69,11 @@ img {
 }
 
 button{
-    padding: 16px 30px;
+    padding: 15px 40px;
+    background-color: var(--darkred);
     color: var(--white);
     align-items: center;
+    border: none;
     border-radius: 10px;
 }
 
@@ -112,12 +114,13 @@ button{
 }
 
 input[type="button"]{
+    padding: 10px 20px;
+    border: none;
     background-color: var(--darkred, #6A0025);
+    &:checked {
+        background-color: var(--accentred);
+     }
 }
-
-input[type="checkbox"]:checked {
-    background-color: var(--accentred);
- }
 
 input[type="search"],input[type="search"]:focus{
     width: 100%;
