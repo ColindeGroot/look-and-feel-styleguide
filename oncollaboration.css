@@ -14,10 +14,10 @@ body {
     --vag-rund: Arial, Helvetica, sans-serif;
     --open-sans: "Open Sans";
 
-    --font-size-xl: 45px;
-    --font-size-l: 35px;
-    --font-size-m: 20px;
-    --font-size-s: 18px;
+    --font-size-xl: 3em;
+    --font-size-l: 2em;
+    --font-size-m: 1.6em;
+    --font-size-s: 1.2em;
 
     --light: 400;
     --normal: 500;
@@ -92,7 +92,7 @@ button{
     color: var(--darkred);
 }
 
-.cat-button {
+.cat-button,.popup-button {
     /* webinars buttons */
     padding: 10px 20px;
     border: 2px solid var(--darkred);
