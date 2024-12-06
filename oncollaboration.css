@@ -14,10 +14,15 @@ body {
     --vag-rund: Arial, Helvetica, sans-serif;
     --open-sans: "Open Sans";
 
-    --font-size-xl: 3em;
-    --font-size-l: 2em;
-    --font-size-m: 1.6em;
-    --font-size-s: 1.2em;
+    --font-size-desktop-xl: 3em;
+    --font-size-desktop-l: 2em;
+    --font-size-desktop-m: 1.6em;
+    --font-size-desktop-s: 1.2em;
+
+    --font-size-mobile-xl: 2em;
+    --font-size-mobile-l: 1.2em;
+    --font-size-mobile-m: 1em;
+    --font-size-mobile-s: 0.8em;
 
     --light: 400;
     --normal: 500;
