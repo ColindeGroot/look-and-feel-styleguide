@@ -32,7 +32,7 @@ body {
     color: var(--black);
     background-color: var(--lightred);
     line-height: 1.4;
-    font-size: var(--font-size-s);
+    font-size: var(--font-size-desktop-s);
 }
 
 ol,
@@ -45,18 +45,27 @@ ul {
 }
 
 h1 {
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-mobile-xl);
     color: var(--darkred);
+    @media (max-width:700px){
+        font-size: var(--font-size-desktop-xl);
+    }
 }
 
 h2 {
-    font-size: var(--font-size-l);
+    font-size: var(--font-size-mobile-l);
     padding-bottom: 30px;
     color: var(--darkred);
+    @media (max-width:700px){
+        font-size: var(--font-size-desktop-l);
+    }
 }
 
 h3 {
-    font-size: var(--font-size-m);
+    font-size: var(--font-size-mobile-m);
+    @media (max-width:700px){
+        font-size: var(--font-size-desktop-m);
+    }
 }
 
 a {
