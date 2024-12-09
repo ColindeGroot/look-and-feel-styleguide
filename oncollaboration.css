@@ -47,7 +47,7 @@ ul {
 h1 {
     font-size: var(--font-size-mobile-xl);
     color: var(--darkred);
-    @media (max-width:700px){
+    @media (min-width:700px){
         font-size: var(--font-size-desktop-xl);
     }
 }
@@ -56,14 +56,14 @@ h2 {
     font-size: var(--font-size-mobile-l);
     padding-bottom: 30px;
     color: var(--darkred);
-    @media (max-width:700px){
+    @media (min-width:700px){
         font-size: var(--font-size-desktop-l);
     }
 }
 
 h3 {
     font-size: var(--font-size-mobile-m);
-    @media (max-width:700px){
+    @media (min-width:700px){
         font-size: var(--font-size-desktop-m);
     }
 }
