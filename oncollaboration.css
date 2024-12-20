@@ -83,7 +83,7 @@ a {
     }
 }
 
-button{
+button, .button{
     padding: 15px 40px;
     background-color: var(--darkred);
     color: var(--white);
